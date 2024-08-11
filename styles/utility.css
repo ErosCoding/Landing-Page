@@ -25,8 +25,8 @@
 }
 
 .even-columns {
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+  display: grid;
+  gap: 1rem;
 }
 
 .flex {
@@ -54,7 +54,13 @@
     --max-width: 80rem;
   }
 
+
   .desktop-only {
-    display: initial;
+  display: initial;
+  }
+
+  .even-columns {
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
   }
 }
