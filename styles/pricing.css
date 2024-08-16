@@ -112,6 +112,10 @@
       padding-bottom: 6rem;
     }
 
+    & .card:nth-child(1) .separator {
+      margin-block: 1.5rem;
+    }
+
     & .card:nth-child(3) .separator {
       margin-block: 1.5rem;
     }
